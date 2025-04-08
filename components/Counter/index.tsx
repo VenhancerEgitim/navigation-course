@@ -12,7 +12,7 @@ export const Counter = () => {
       <View style={styles.buttonContainer}>
         <Button title="+1" onPress={() => dispatch(increment())} />
         <Button title="-1" onPress={() => dispatch(decrement())} />
-        <Button title="+5" onPress={() => dispatch(incrementByAmount(5))} />
+        <Button title="+3" onPress={() => dispatch(incrementByAmount(5))} />
       </View>
     </View>
   );
