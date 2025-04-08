@@ -25,8 +25,8 @@ const CustomButton: React.FC<CustomButtonProps> = ({
 
 const styles = StyleSheet.create({
   button: {
-    padding: 20,
-    borderRadius: 20,
+    padding: 14,
+    borderRadius: 10,
     alignItems: 'center',
   },
   text: {
